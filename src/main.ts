@@ -5,7 +5,7 @@ import { SwaggerModule, DocumentBuilder } from '@nestjs/swagger';
 import { INestApplication } from '@nestjs/common';
 const generateApiDocumentation = (app: INestApplication) =>{
   const config = new DocumentBuilder()
-    .setTitle('Documentacios de tares')
+    .setTitle('Documentación de tareas')
     .setDescription('La descripción de api tareas')
     .setVersion('1.0')
     .addTag('task')

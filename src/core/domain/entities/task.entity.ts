@@ -12,10 +12,10 @@ export class TaskEntity {
   responsible: string
 
   @Column()
-  tags: Array<string>
+  tags: string
 
   @Column()
-  fedbacks: Array<string>
+  fedbacks: string
 
   @Column()
   deliveryDate: Date
